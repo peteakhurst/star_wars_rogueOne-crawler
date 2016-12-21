@@ -1,0 +1,50 @@
+/* MY STYLES */
+
+section {
+  background: url("images/stars-bg.jpg") center center;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 720px;
+  padding: 60px;
+  
+}
+
+.pad {
+  box-shadow: 5px 5px 115px 5px rgba(255,255,255,0.1);
+  height: 0;
+  padding-top: 30px;
+  padding-bottom: 56.25%;
+  padding-top: 30px;
+  position: relative; 
+  overflow: hidden;
+}
+
+.pad iframe,
+.pad object,
+.pad embed {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+h1, h4 {
+  font-family: "Droid Sans", Helvetica, open-sans;
+  text-align: center;
+}
+
+h1 {
+  font-size: 3em;
+  line-height: 3rem;
+  color: #EBD71C;
+  
+}
+
+h4 {
+  font-size: 2em;
+  font-weight: 300;
+  color: #fff;
+}
